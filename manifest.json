@@ -1,4 +1,8 @@
 {
+ ".nojekyll": {
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c14"
+ },
  "assets/env/shaft-1024-portrait.webp": {
   "bytes": 64058,
   "sha256": "7b877596399599ac"
@@ -35,16 +39,20 @@
   "bytes": 19540,
   "sha256": "84a16e8a09c6fa17"
  },
+ "favicon.ico": {
+  "bytes": 4286,
+  "sha256": "a27290914c928b90"
+ },
  "index.html": {
   "bytes": 3552,
   "sha256": "b3a53e47c87f8a4e"
  },
  "manifest.json": {
-  "bytes": 1009,
-  "sha256": "23f5cd4ae02a1d77"
+  "bytes": 1074,
+  "sha256": "b7256591c9d9f8a2"
  },
  "slack.js": {
-  "bytes": 19903,
-  "sha256": "368d68130535739e"
+  "bytes": 20049,
+  "sha256": "604a9f2cfa6eaab5"
  }
 }
