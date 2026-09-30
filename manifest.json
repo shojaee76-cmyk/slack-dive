@@ -1,0 +1,50 @@
+{
+ "assets/env/shaft-1024-portrait.webp": {
+  "bytes": 64058,
+  "sha256": "7b877596399599ac"
+ },
+ "assets/env/shaft-1024.webp": {
+  "bytes": 63854,
+  "sha256": "4d359af0186df45a"
+ },
+ "assets/env/shaft-256.webp": {
+  "bytes": 5306,
+  "sha256": "e73af346e86b7b24"
+ },
+ "assets/env/shaft-512.webp": {
+  "bytes": 24440,
+  "sha256": "137b5619e4d20b08"
+ },
+ "assets/fonts/barlow-condensed-700.woff2": {
+  "bytes": 23824,
+  "sha256": "0d7cb02ad509e064"
+ },
+ "assets/fonts/bsd-700.woff2": {
+  "bytes": 14424,
+  "sha256": "d2d55115d0d7047c"
+ },
+ "assets/fonts/fonts.css": {
+  "bytes": 1343,
+  "sha256": "fdf5276f42e3d687"
+ },
+ "assets/fonts/iserif-400.woff2": {
+  "bytes": 21036,
+  "sha256": "7796998dac1ab02b"
+ },
+ "assets/fonts/space-mono-700.woff2": {
+  "bytes": 19540,
+  "sha256": "84a16e8a09c6fa17"
+ },
+ "index.html": {
+  "bytes": 3552,
+  "sha256": "b3a53e47c87f8a4e"
+ },
+ "manifest.json": {
+  "bytes": 1009,
+  "sha256": "23f5cd4ae02a1d77"
+ },
+ "slack.js": {
+  "bytes": 19903,
+  "sha256": "368d68130535739e"
+ }
+}

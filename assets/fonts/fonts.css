@@ -1,0 +1,48 @@
+/* SLACK - self-hosted webfonts. Zero external requests: every @font-face src is a
+   relative path to a file in this folder. No CDN, no Google Fonts, no origin
+   outside the site's own host. Verified against the zero-external-host audit.
+
+   All five files are WOFF2, served from assets/fonts/ with relative paths, so
+   the stylesheet works unchanged from any subpath or file:// mount.
+   font-display: swap keeps text readable while a face loads, which matters on
+   the hostile connection this game ships to. */
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('barlow-condensed-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('space-mono-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('bsd-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('bsd-800.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iowan Old Style';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('iserif-400.woff2') format('woff2');
+}

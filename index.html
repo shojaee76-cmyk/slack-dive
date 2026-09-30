@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>SLACK</title>
+<meta name="description" content="Two divers, one rope, a shaft that eats the light. You cannot see your rival. You can only feel the line.">
+<meta name="theme-color" content="#04090c">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+:root{
+  --abyss:#04090c; --deep:#0a1a20; --stone:#2b3d42;
+  --chalk:#c9d6d3; --aqua:#7fd4d0; --amber:#ff8a3d; --ember:#ff5c2b;
+  --display:'Barlow Condensed','Big Shoulders Display',sans-serif;
+  --body:Archivo,'Helvetica Neue',sans-serif;
+  --mono:'Space Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--abyss);color:var(--chalk);overflow:hidden;
+  font-family:var(--body);-webkit-font-smoothing:antialiased}
+#stage{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:crosshair}
+.hud{position:fixed;z-index:2;pointer-events:none}
+.hud-tl{top:max(14px,env(safe-area-inset-top));left:max(16px,env(safe-area-inset-left))}
+.hud-bl{bottom:max(14px,env(safe-area-inset-bottom));left:max(16px,env(safe-area-inset-left))}
+.hud-br{bottom:max(14px,env(safe-area-inset-bottom));right:max(16px,env(safe-area-inset-right))}
+.word{font:700 clamp(30px,7vw,54px)/.86 var(--display);letter-spacing:.16em;margin:0;color:var(--chalk)}
+.sub{margin:6px 0 0;font:400 12px/1.35 var(--body);color:rgba(127,212,208,.78);letter-spacing:.04em;max-width:34ch}
+.legend{font:700 10px/1.9 var(--mono);color:rgba(201,214,211,.5);letter-spacing:.09em;margin:0}
+.legend b{color:var(--aqua);font-weight:700}
+.verdict{margin:0;font:700 11px/1.3 var(--mono);letter-spacing:.09em;color:var(--ember);
+  border-left:2px solid var(--ember);padding-left:9px}
+.score{font:700 11px/1 var(--mono);letter-spacing:.1em;color:rgba(201,214,211,.66);margin:0 0 7px}
+button{pointer-events:auto;font:700 10px/1 var(--mono);letter-spacing:.14em;color:rgba(127,212,208,.72);
+  background:rgba(4,9,12,.42);border:1px solid rgba(127,212,208,.26);border-radius:0;
+  min-height:44px;padding:0 13px;cursor:pointer;
+  -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+button:hover,button:focus-visible{border-color:var(--aqua);color:var(--aqua);outline:none;
+  background:rgba(4,9,12,.7)}
+.btnrow{display:flex;gap:8px}
+@media (max-width:640px){.legend{font-size:9px;line-height:1.8}}
+@media (max-height:520px){.word{font-size:26px}}
+</style>
+<link rel="preload" href="assets/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/space-mono-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bsd-700.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+<canvas id="stage" aria-label="SLACK. Two divers share one rope in a flooded shaft. Hold W or the right half of the screen to haul, S or the left half to ease, Space or double tap to shock."></canvas>
+
+<div class="hud hud-tl">
+  <h1 class="word">SLACK</h1>
+</div>
+
+<div class="hud hud-bl">
+  <p class="score" id="result">0 HELD &middot; 0 SLIPPED</p>
+  <p class="verdict" id="verdict" hidden></p>
+</div>
+
+<div class="hud hud-br">
+  <div class="btnrow">
+    <button id="mute" type="button" aria-pressed="true">SOUND ON</button>
+    <button id="again" type="button">NEW LINE</button>
+  </div>
+</div>
+
+<script type="module" src="slack.js"></script>
+</body>
+</html>
