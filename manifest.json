@@ -40,12 +40,12 @@
   "sha256": "84a16e8a09c6fa17"
  },
  "assets/parts/opponent/opponent-q88.webp": {
-  "bytes": 35960,
-  "sha256": "856026bdc7e6a7ba"
+  "bytes": 36014,
+  "sha256": "d7325276e68a62d7"
  },
  "assets/parts/opponent/opponent.json": {
-  "bytes": 234,
-  "sha256": "6831db9a4e2fa591"
+  "bytes": 235,
+  "sha256": "0b8a93b278cc3328"
  },
  "assets/parts/player/player-q88.webp": {
   "bytes": 31348,
@@ -65,10 +65,10 @@
  },
  "manifest.json": {
   "bytes": 1520,
-  "sha256": "2d5730d57b37ed6f"
+  "sha256": "a78d9224b627d67b"
  },
  "slack.js": {
-  "bytes": 22908,
-  "sha256": "e13cbb89214f9d8a"
+  "bytes": 23898,
+  "sha256": "cb31e5cc20e5a0cf"
  }
 }

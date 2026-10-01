@@ -2,21 +2,21 @@
  "cat": "opponent",
  "src": "opponent.png",
  "restSize": [
-  621,
-  706
+  664,
+  814
  ],
  "crop": [
-  29,
-  55
+  131,
+  97
  ],
- "figurePx": 177821,
+ "figurePx": 213133,
  "gripHighNorm": [
-  0.61498,
-  0.15184
+  0.59187,
+  0.04177
  ],
  "gripLowNorm": [
-  0.61498,
-  0.84646
+  0.59187,
+  0.47666
  ],
  "gripSpreadPx": 0.0
 }
