@@ -1,0 +1,22 @@
+{
+ "cat": "player",
+ "src": "player.png",
+ "restSize": [
+  511,
+  900
+ ],
+ "crop": [
+  274,
+  125
+ ],
+ "figurePx": 178135,
+ "gripHighNorm": [
+  0.85851,
+  0.12367
+ ],
+ "gripLowNorm": [
+  0.85851,
+  0.37133
+ ],
+ "gripSpreadPx": 0.0
+}

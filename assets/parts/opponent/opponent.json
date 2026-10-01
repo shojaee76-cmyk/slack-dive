@@ -1,0 +1,22 @@
+{
+ "cat": "opponent",
+ "src": "opponent.png",
+ "restSize": [
+  621,
+  706
+ ],
+ "crop": [
+  29,
+  55
+ ],
+ "figurePx": 177821,
+ "gripHighNorm": [
+  0.61498,
+  0.15184
+ ],
+ "gripLowNorm": [
+  0.61498,
+  0.84646
+ ],
+ "gripSpreadPx": 0.0
+}

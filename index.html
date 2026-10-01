@@ -37,6 +37,9 @@ button{pointer-events:auto;font:700 10px/1 var(--mono);letter-spacing:.14em;colo
   -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
 button:hover,button:focus-visible{border-color:var(--aqua);color:var(--aqua);outline:none;
   background:rgba(4,9,12,.7)}
+/* the run action is the only filled control, so it reads as an action rather than a setting */
+button.action{color:var(--abyss);background:rgba(127,212,208,.82);border-color:rgba(127,212,208,.82)}
+button.action:hover,button.action:focus-visible{background:var(--aqua);color:var(--abyss)}
 .btnrow{display:flex;gap:8px}
 @media (max-width:640px){.legend{font-size:9px;line-height:1.8}}
 @media (max-height:520px){.word{font-size:26px}}
@@ -60,7 +63,7 @@ button:hover,button:focus-visible{border-color:var(--aqua);color:var(--aqua);out
 <div class="hud hud-br">
   <div class="btnrow">
     <button id="mute" type="button" aria-pressed="true">SOUND ON</button>
-    <button id="again" type="button">NEW LINE</button>
+    <button id="again" type="button" class="action">NEW LINE</button>
   </div>
 </div>
 
