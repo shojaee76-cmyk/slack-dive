@@ -65,10 +65,10 @@
  },
  "manifest.json": {
   "bytes": 1520,
-  "sha256": "92d3016e50888105"
+  "sha256": "e013dc114b13f62c"
  },
  "slack.js": {
-  "bytes": 21914,
-  "sha256": "b5d6bd83b72b5031"
+  "bytes": 22492,
+  "sha256": "91c21aa6ac9a5948"
  }
 }
