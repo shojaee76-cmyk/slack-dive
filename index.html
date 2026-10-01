@@ -13,7 +13,9 @@
   --abyss:#04090c; --deep:#0a1a20; --stone:#2b3d42;
   --chalk:#c9d6d3; --aqua:#7fd4d0; --amber:#ff8a3d; --ember:#ff5c2b;
   --display:'Barlow Condensed','Big Shoulders Display',sans-serif;
-  --body:Archivo,'Helvetica Neue',sans-serif;
+  /* Archivo never shipped a file: body text silently fell back to Helvetica (proven by
+     pixel-identical render hashes). These are the faces that actually ship. */
+  --body:'Barlow Condensed','Helvetica Neue',sans-serif;
   --mono:'Space Mono',ui-monospace,monospace;
 }
 *{box-sizing:border-box}
