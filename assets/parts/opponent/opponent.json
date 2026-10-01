@@ -11,12 +11,13 @@
  ],
  "figurePx": 213133,
  "gripHighNorm": [
-  0.59187,
+  0.73193,
   0.04177
  ],
  "gripLowNorm": [
-  0.59187,
+  0.73193,
   0.47666
  ],
- "gripSpreadPx": 0.0
+ "gripSpreadPx": 0.0,
+ "anchorNote": "anchor x chosen by pixel search over the shipped sprite: 67 columns place opaque pixels inside BOTH fist bands (upper x327-360, lower x121-169, 158px apart so no column can be perfect). x=486 maximises contact; the previous x=393 hit 0 px in the upper band. Measured, not eyeballed."
 }

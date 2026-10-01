@@ -44,8 +44,8 @@
   "sha256": "d7325276e68a62d7"
  },
  "assets/parts/opponent/opponent.json": {
-  "bytes": 235,
-  "sha256": "0b8a93b278cc3328"
+  "bytes": 536,
+  "sha256": "6bfbc2b9bab3714e"
  },
  "assets/parts/player/player-q88.webp": {
   "bytes": 31348,
@@ -65,7 +65,7 @@
  },
  "manifest.json": {
   "bytes": 1520,
-  "sha256": "b5405bee6a988301"
+  "sha256": "0790e4597bf0553f"
  },
  "slack.js": {
   "bytes": 23999,
